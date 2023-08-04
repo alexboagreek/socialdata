@@ -61,8 +61,13 @@ fieldset {
   border: 0;
 }
 
-
 .visually-hidden {
   position: fixed;
   transform: scale(0);
+}
+
+.container {
+  max-width: 2120px;
+  padding: 0 100px;
+  margin: 0 auto;
 }

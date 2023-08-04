@@ -1,0 +1,35 @@
+.header {
+  padding-top: 40px;
+  padding-bottom: 115px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  margin-bottom: 18px;
+}
+
+.navigation__list {
+  display: flex;
+  gap: 50px;
+}
+
+.advertiser__btn {
+  color: #2898F5;
+  border-radius: 31px;
+  border: 1px solid  #2898F5;
+  padding: 15px 25px;
+  margin-right: 25px;
+}
+
+.registration {
+  display: flex;
+}
+
+.checkbox {
+  margin-right: 18px;
+}
