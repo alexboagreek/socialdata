@@ -1,0 +1,40 @@
+.reviews__title_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviews__title {
+  font-family: HeliosExt;
+  font-size: 78px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.27;
+}
+
+.reviews__text_helper {
+  margin-left: 15px;
+}
+
+.reviews__text {
+
+  width: 309px;
+  color:  #2898F5;
+  font-family: HeliosExt;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.reviews__span {
+  text-transform: uppercase;
+}
+
+.reviews__action {
+  display: flex;
+}
+
+.reviews__info_icon {
+  
+}
