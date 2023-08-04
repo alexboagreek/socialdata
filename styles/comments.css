@@ -36,7 +36,7 @@
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  background-color: brown;
+  background-color: #2898F5;;
 }
 
 .item__box_helper {
@@ -64,6 +64,7 @@
 
 .comments__slider_button {
   cursor: pointer;
+  margin-right: 8px;
 }
 .comments__svg {
   margin-left: 15px;
