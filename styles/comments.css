@@ -1,0 +1,36 @@
+.comments__title {
+  font-family: HeliosExt;
+  font-size: 78px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.27;
+  margin-bottom: 60px;
+}
+
+
+.comments__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item__box_helper {
+  display: flex;
+}
+.comments__icons_list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 54px;
+}
+
+.comments__slider_button {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: brown;
+}
+
+
+
+.comments_buttons {
+  display: flex;
+}

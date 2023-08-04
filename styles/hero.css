@@ -4,6 +4,16 @@
   background-color: #E3F1FE;;
 }
 
+.hero__box {
+  display: flex;
+  position: relative;
+}
+
+.hero__image_box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 .hero__title {
   max-width: 890px;
   font-family: 'HeliosExt';
