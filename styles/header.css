@@ -28,8 +28,20 @@
 
 .registration {
   display: flex;
+  align-items: center;
 }
 
 .checkbox {
   margin-right: 18px;
+}
+
+.authorization {
+  padding: 16px 42px;
+  color: #FFF;
+  font-family: HeliosExtC;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #2898F5;
+  border-radius: 63px;
 }
