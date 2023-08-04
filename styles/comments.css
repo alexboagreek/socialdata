@@ -1,3 +1,7 @@
+.comments {
+  margin-bottom: 194px;
+}
+
 .comments__title {
   font-family: HeliosExt;
   font-size: 78px;
@@ -7,6 +11,9 @@
   margin-bottom: 60px;
 }
 
+.comments__text {
+  margin-bottom: 20px;
+} 
 
 .comments__box {
   display: flex;
@@ -15,7 +22,10 @@
 
 .item__box_helper {
   display: flex;
+  margin-bottom: 30px;
+  align-items: center;
 }
+
 .comments__icons_list {
   display: flex;
   align-items: center;
@@ -29,8 +39,41 @@
   background-color: brown;
 }
 
+.item__box_helper {
+  margin-top: 68px;
+}
 
+.comments__link_news {
+  display: flex;
+  align-items: center;
+  color: #2898F5;
+  font-family: HeliosExtC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  border-radius: 34.5px;
+  border: 1.5px solid  #2898F5;
+  padding: 25px 51px;
+}
+
+.comments__value {
+  margin-left: 11px;
+}
+
+.comments__slider_button {
+  cursor: pointer;
+}
+.comments__svg {
+  margin-left: 15px;
+}
 
 .comments_buttons {
   display: flex;
+}
+
+.comments__info {
+  display: flex;
+  justify-content: space-between;
 }
