@@ -25,10 +25,26 @@
         <button class="btn publisher__btn">Паблишерам</button>
       </div>
       <div class="registration">
-        <div class="checkbox">
-          <label class="btn btn-primary">
-            <input type="checkbox"> RU
-          </label>
+        <div class="header-menu__link lang">
+          <span class="current-lang">Ru</span>
+          <svg width="15" height="8" viewbox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L7.5 7L14 1" stroke="#2898F5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        
+          <div class="header-menu__languages">
+            <div
+              class="header-menu__language language"
+              data-lang="ru"
+            >
+              Ru
+            </div>
+            <div
+              class="header-menu__language language"
+              data-lang="en"
+            >
+              En
+            </div>
+          </div>
         </div>
         <button class="authorization">Войти</button>
       </div>
@@ -41,7 +57,7 @@
       <div class="container">
         <h2 class="hero__title">Крупнейшая платформа аналитики и <span class="hero__span">рекламы</span> в нативном формате</h2>
 
-        <div class="hero__contollers">
+        <div class="hero__controllers">
           <button class="btn__controller entrance__controller">Получить доступ 
             <svg class="hero__svg" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewbox="0 0 15 15" fill="none">
               <path d="M14.6221 1.98612C14.6221 1.43848 14.1706 0.994522 13.6138 0.994522L4.5388 0.994522C3.98191 0.994522 3.53047 1.43848 3.53047 1.98612C3.53047 2.53377 3.98191 2.97772 4.5388 2.97772L12.6054 2.97772L12.6054 10.9105C12.6054 11.4582 13.0569 11.9021 13.6138 11.9021C14.1706 11.9021 14.6221 11.4582 14.6221 10.9105L14.6221 1.98612ZM2.09581 14.7153L14.3268 2.68729L12.9008 1.28496L0.669816 13.313L2.09581 14.7153Z" fill="white"/>
@@ -71,6 +87,46 @@
           <li class="partners__item"><img src="assets/icons/tff_logo.png" alt="Логотип партнеров организации SocialData"></li>
           <li class="partners__item"><img src="assets/icons/rore-logo.png" alt="Логотип партнеров организации SocialData"></li>
         </ul>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container about__container">
+        <div class="about__box">
+          <h2 class="about__title">Что такое</h2>
+          <button class="about__button">SocialData</button>
+
+          <ul class="about__list">
+            <li class="about__item">
+              <h3 class="about__item_title">Крупнейшая<br> база</h3>
+              <p class="about__item_text">Более 500к каналов&nbsp;и&nbsp;аккаунтов<br> во всех соцсетях</p>
+  
+              <img class="about__item_img" src="assets/img/item_1.png" alt="Изображение информации о деятельности SocialData">
+            </li>
+            <li class="about__item">
+              <h3 class="about__item_title">Актуальные <br>цены</h3>
+              <p class="about__item_text text__item">Регулярное обновление стоимости <br>размещений, без скрытых <br> платежей и комиссий</p>
+  
+              <img class="about__item_img" src="assets/img/item_2.png" alt="Изображение информации о деятельности SocialData">
+            </li>
+            <li class="about__item">
+              <h3 class="about__item_title">Данные и статистика</h3>
+              <p class="about__item_text">Ежедневное обновление статистики каналов и аккаунтов по 20+ параметрам</p>
+              <img class="about__item_img" src="assets/img/item_3.png" alt="Изображение информации о деятельности SocialData">
+            </li>
+            <li class="about__item">
+              <h3 class="about__item_title">Запуск рекламной кампании</h3>
+              <p class="about__item_text">Возможность одновременно запустить <br> рекламу на нескольких площадках</p>
+  
+              <img class="about__item_img" src="assets/img/item_4.png" alt="Изображение информации о деятельности SocialData">
+            </li>
+          </ul>
+
+          <div class="slider__box">
+            <button class="slider__button slider__button_left"></button>
+            <button class="slider__button slider__button_right"></button>
+          </div>
+        </div>
       </div>
     </section>
   </main>

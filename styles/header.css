@@ -1,6 +1,35 @@
 .header {
   padding-top: 40px;
   padding-bottom: 115px;
+  border-radius: 0px 0px;
+  opacity: 0.9;
+  background: #E3F1FE;
+}
+
+.header-menu__languages {
+  display: none;
+}
+
+.current-lang {
+  margin-right: 9px;
+}
+
+.header-menu__link {
+  color: #2898F5;
+  font-family: HeliosExtC;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 17px;
+  border-radius: 63px;
+  border: 1px solid #2898F5;
+  display: flex;
+  width: 80px;
+  padding: 17px 17px 14px 17px;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .header__container {

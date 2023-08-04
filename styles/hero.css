@@ -1,3 +1,9 @@
+.hero {
+  border-radius: 0px 0px 120px 120px;
+  opacity: 0.9;
+  background-color: #E3F1FE;;
+}
+
 .hero__title {
   max-width: 890px;
   font-family: 'HeliosExt';
@@ -6,14 +12,17 @@
   font-weight: 400;
   line-height: 1.17;
   margin-bottom: 150px;
+  color: #182149;
 }
 
 .hero__span {
   color: #2898F5;
   cursor: pointer;
 }
-.hero__contollers {
+
+.hero__controllers {
   display: flex;
+  padding-bottom: 214px;
 }
 
 .btn__controller {
