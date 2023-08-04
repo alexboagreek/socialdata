@@ -1,0 +1,37 @@
+.partners {
+  padding-top: 100px;
+  margin-bottom: 152px;
+}
+
+.partners__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partners__title {
+  font-family: HeliosExt;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.27; 
+  color: #182149;
+  margin-bottom: 50px;
+}
+
+.partners__item {
+  margin-right: 28px;
+  width: 232px;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 37px;
+  border: 1px solid #2898F5;;
+  box-shadow: 0px 0px 57px 0px rgba(255, 255, 255, 0.65) inset;
+  padding: 15px 26px;
+}
+
+.partners__item:last-child{
+  margin-right: 0;
+}
