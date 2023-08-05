@@ -1,0 +1,65 @@
+.advantages {
+  margin-bottom: 180px;
+}
+
+.advantages__title {
+  color: #182149;
+  font-family: HeliosExt;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.27;
+  margin-bottom: 63px;
+}
+
+.advantages__span {
+  color: #2898f5;
+  text-align: center;
+  font-family: HeliosExt;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.27;
+  border-radius: 49.5px;
+  border: 2px solid #2898f5;
+  padding: 2px 30px;
+}
+
+.advantages__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages__item {
+  border-radius: 50px;
+  border: 1px solid green;
+  box-shadow: 0px 4px 75px 0px rgba(255, 255, 255, 0.73) inset;
+  padding-top: 135px;
+  padding-left: 40px;
+  padding-right: 40px;
+ 
+}
+
+.advantages__item:last-child {
+  margin-right: 0;
+}
+
+.advantages__item_title {
+  color: #2898F5;
+  font-family: HeliosExtC;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.1; 
+  margin-bottom: 25px;
+}
+
+.advantages__item_text {
+  color: var(--2898-f-5, #2898F5);
+  font-family: HeliosExtC;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 86px;
+}

@@ -135,10 +135,63 @@
           <div class="slider__box">
             <div></div>
             <div>
-              <button class="slider__button slider__button_left"></button>
-              <button class="slider__button slider__button_right"></button>
+              <button class="slider__button slider__button_left">
+                <img src="assets/icons/prev__arrow.png" alt="Иконка кнопки переключения слайдера">
+              </button>
+              <button class="slider__button slider__button_right">
+                <img src="assets//icons/next__arrow.png" alt="Иконка кнопки переключения слайдера">
+              </button>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="container">
+        <h2 class="advantages__title">Преимущества <br> <span class="advantages__span">платформы</span></h2>
+
+        <div class="advantages__list">
+          <div class="advantages__item">
+            <h3 class="advantages__item_title">Популярные <br> соцсети</h3>
+
+            <p class="advantages__item_text">
+              Все самые популярные <br>соцсети в одном месте
+            </p>
+          </div>
+
+          <div class="advantages__item">
+            <h3 class="advantages__item_title">Быстрый запуск</h3>
+
+            <p class="advantages__item_text">
+              Рекламная кампания <br> за 24 часа
+            </p>
+          </div>
+
+          <div class="advantages__item">
+            <h3 class="advantages__item_title">Официально <br>/ ЭДО</h3>
+
+            <p class="advantages__item_text">
+              Оплата по счету, договор<br> и все закрывающие документы по ЭДО
+            </p>
+          </div>
+          <div class="advantages__item">
+            <h3 class="advantages__item_title">Точный таргетинг</h3>
+
+            <p class="advantages__item_text">
+              Максимальный охват <br> именно вашей целевой аудитории
+            </p>
+          </div>
+
+          <div class="advantages__item">
+            <h3 class="advantages__item_title">Закон <br> о рекламе</h3>
+
+            <p class="advantages__item_text">
+              Соблюдение нового <br> закона о рекламе
+              и сдача отчетности
+            </p>
+          </div>
+          
         </div>
       </div>
     </section>
@@ -313,6 +366,41 @@
           <div class="comments__slider_button reviews__slider_button-next">
             <img src="assets/icons/next__arrow.png" alt="Иконка переключателей слайдера">
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="quest">
+    <div class="container">
+      <div class="quest__box">
+        <div class="quest__box">
+          <h2 class="quest__title">Остались <br> вопросы?</h2>
+        </div>
+        <div class="quest__image"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="order">
+    <div class="container">
+      <div class="order-form">
+        <div class="order-form-text">
+          Заполните все данные и наш менеджер свяжется с вами для подтверждения заказа
+        </div>
+        <div class="order-form-inputs" [formGroup]="form">
+          <div class="order-form-input" [class]="{'error': form.get('order')?.invalid && (form.get('order')?.dirty || form.get('order')?.touched)}">
+            <input type="text" placeholder="Выберите товар в списке" id="burger" formControlName="order" readonly>
+          </div>
+          <div class="order-form-input" [class]="{'error': form.get('name')?.invalid && (form.get('name')?.dirty || form.get('name')?.touched)}">
+            <input type="text" placeholder="Ваше имя" id="name" formControlName="name">
+          </div>
+           <div class="order-form-input" [class]="{'error': form.get('phone')?.invalid && (form.get('phone')?.dirty || form.get('phone')?.touched)}">
+            <input type="text" placeholder="Ваш телефон" id="phone" formControlName="phone">
+          </div>
+  
+          <button class="button" id="order-action" (click)="confirmOrder()" [disabled]="!form.valid">Оформить заказ</button>
         </div>
       </div>
     </div>
