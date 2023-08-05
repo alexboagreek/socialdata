@@ -28,5 +28,5 @@
   font-family: 'HeliosExt';
   font-style: normal;
   font-weight: 700;
-  src: url('../assets/fonts/heliosext.otf') format('otf'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../assets/fonts/heliosext.otf') format('opentype'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
