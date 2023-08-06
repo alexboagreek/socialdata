@@ -12,6 +12,10 @@
   margin-bottom: 63px;
 }
 
+.advantages__content {
+  height: 380px;
+}
+
 .advantages__span {
   color: #2898f5;
   text-align: center;
@@ -26,8 +30,11 @@
 }
 
 .advantages__list {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(5, 398px);
+  gap: 20px;
+  justify-content: center;
+
 }
 
 .advantages__item {

@@ -58,7 +58,7 @@
 }
 
 .entrance__controller {
-  width: 330px;
+  width: 390px;
   margin-right: 20px;
   background-color: #2898F5;
   padding: 37px 75px;
@@ -67,7 +67,6 @@
 }
 
 .video__controller {
-  
   width: 406px;
   color:#2898F5 ;
   border-radius: 73px;
