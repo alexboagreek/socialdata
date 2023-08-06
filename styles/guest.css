@@ -1,0 +1,110 @@
+.guest {
+  background: radial-gradient(
+      26.83% 28.75% at 25.94% 92.16%,
+      #45d2ff 0%,
+      rgba(69, 210, 255, 0) 100%
+    ),
+    radial-gradient(
+      134.67% 69.88% at 9.66% 82.03%,
+      #985df1 0%,
+      rgba(171, 116, 255, 0) 100%
+    ),
+    radial-gradient(
+      63.24% 60.56% at 82.86% 30.4%,
+      rgba(25, 210, 251, 0.5) 0%,
+      rgba(25, 210, 251, 0) 100%
+    ),
+    #2898f5;
+  box-shadow: 0px 0px 34px 0px rgba(255, 255, 255, 0.25) inset,
+    0px 4px 13px 0px rgba(255, 255, 255, 0.15) inset;
+  padding-bottom: 145px;
+}
+
+.guest__map_box {
+  position: relative;
+}
+
+.guest__list {
+  position: relative;
+  z-index: 5;
+  width: 535px;
+  padding: 40px;
+  border: 2px solid greenyellow;
+  border-radius: 50px;
+  border: 2px solid rgba(238, 247, 255, 0.12);
+  background: rgba(255, 255, 255, 0.21);
+  backdrop-filter: blur(16.5px);
+}
+
+.guest__title {
+  color: #FFF;
+  font-family: HeliosExt;
+  font-size: 78px;
+  line-height: 1.27;
+  margin-bottom: 50px;
+}
+
+.guest__text {
+  width: 811px;
+  color: #FFF;
+  font-family: HeliosExt;
+  font-size: 20px;
+  line-height: 1.5;
+  padding-bottom: 60px;
+}
+
+.guest__item {
+  padding-bottom: 20px;
+}
+
+.guest__item:last-child {
+  padding-bottom: 0;
+}
+
+.guest__item_phone {
+  color: #FFF;
+  font-family: HeliosExtC;
+  font-size: 30px;
+  line-height: 1.5; 
+}
+
+.guest__item_text {
+  color: #FFF;
+  font-family: HeliosExtC;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.guest__item_social {
+  display: flex;
+}
+
+.guest__social_link {
+  margin-right: 20px;
+}
+
+.guest__social_link:last-child {
+  margin-right: 0;
+}
+
+.guest__map_image {
+  position: absolute;
+  z-index: 1;
+  width: 1780px;
+  height: 745px;
+  background-image: url('../assets/img/guest_map.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 44px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat, #28304A;
+  mix-blend-mode: screen;
+  top: 0;
+  left: 0;
+}
+
+.guest__map_substract {
+  position: absolute;
+  top: 89px;
+  left: 1086px;
+}
