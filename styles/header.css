@@ -29,7 +29,7 @@
   padding: 17px 17px 14px 17px;
   justify-content: center;
   align-items: center;
-
+  cursor: pointer;
 }
 
 .header__container {
