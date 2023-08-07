@@ -1,0 +1,112 @@
+.inside {
+  border-radius: 120px;
+  background: radial-gradient(
+      73.33% 22.16% at 29.45% 91.69%,
+      #45d2ff 0%,
+      rgba(69, 210, 255, 0) 100%
+    ),
+    radial-gradient(
+      134.67% 69.88% at 9.66% 82.03%,
+      #985df1 0%,
+      rgba(171, 116, 255, 0) 100%
+    ),
+    radial-gradient(
+      63.24% 60.56% at 82.86% 30.4%,
+      #19d2fb 0%,
+      rgba(25, 210, 251, 0) 100%
+    ),
+    #2898f5;
+  box-shadow: 0px 0px 34px 0px rgba(255, 255, 255, 0.25) inset,
+    0px 4px 13px 0px rgba(255, 255, 255, 0.15) inset;
+  padding-bottom: 273px;
+}
+
+.inside__box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inside__title {
+  padding-top: 130px;
+  text-align: center;
+  color: #fff;
+  font-family: HeliosExt;
+  font-size: 78px;
+  line-height: 1.27;
+  margin-bottom: 20px;
+}
+
+.inside__text {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-family: HeliosExt;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 80px;
+}
+
+.inside__left_arrow {
+  position: absolute;
+  top: 11px;
+  left: 344px;
+}
+
+.inside__right_arrow {
+  position: absolute;
+  top: 264px;
+  right: 433px;
+}
+
+.inside__skills_box {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 135px;
+}
+
+.inside__price_content {
+  width: 425px;
+  border-radius: 46px;
+  border: 1px solid rgba(255, 255, 255, 0.19);
+  background: rgba(255, 255, 255, 0.10);
+  padding: 64px 49px;
+}
+
+.inside__price_margin {
+  margin-bottom: 98px;
+}
+
+.inside__price_item_title {
+  color:  #FFF;
+  text-align: center;
+  font-family: HeliosExt;
+  font-size: 24px;
+  line-height: 1.27; 
+  margin-bottom: 15px;
+}
+
+.inside__price_item_text {
+  width: 325px;
+  flex-wrap: wrap;
+  color:  #FFF;
+  text-align: center;
+  font-family: HeliosExt;
+  font-size: 18px;
+  line-height: 1.27;
+  opacity: 0.7;
+}
+
+.inside__index_container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 185px;
+}
+
+.inside__index_list {
+  display: flex;
+  gap: 100px;
+}
+

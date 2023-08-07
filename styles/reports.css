@@ -1,0 +1,13 @@
+.reports__title {
+  color: #fff;
+  text-align: center;
+  font-family: HeliosExt;
+  font-size: 78px;
+  line-height: 1.27;
+  margin-bottom: 90px;
+}
+
+.reports__analytics_box {
+  display: flex;
+  justify-content: space-between;
+}
