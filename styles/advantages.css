@@ -27,14 +27,16 @@
   border-radius: 49.5px;
   border: 2px solid #2898f5;
   padding: 2px 30px;
+  cursor: pointer;
 }
 
 .advantages__list {
   display: grid;
-  grid-template-columns: repeat(5, 398px);
-  gap: 20px;
+  grid-template-columns: repeat(5, 328px);
+  min-height: 380px;
+  gap: 70px;
   justify-content: center;
-
+  margin-top: auto;
 }
 
 .advantages__item {
@@ -44,7 +46,11 @@
   padding-top: 135px;
   padding-left: 40px;
   padding-right: 40px;
- 
+}
+
+.advantages__item_helper {
+  height: 438px;
+  width: 380px;
 }
 
 .advantages__item:last-child {
