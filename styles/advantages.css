@@ -61,18 +61,14 @@
   color: #2898F5;
   font-family: HeliosExtC;
   font-size: 36px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.1; 
   margin-bottom: 25px;
 }
 
 .advantages__item_text {
-  color: var(--2898-f-5, #2898F5);
+  color: #2898F5;
   font-family: HeliosExtC;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   margin-bottom: 86px;
 }
