@@ -172,6 +172,7 @@
   width: 396px;
   margin-top: auto;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .compilation__link_svg {

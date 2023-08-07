@@ -11,3 +11,27 @@
   display: flex;
   justify-content: space-between;
 }
+
+.reports__analytics_title {
+  width: 377px;
+  flex-wrap: wrap;
+  color: #FFF;
+  font-family: HeliosExt;
+  font-size: 30px;
+  line-height: 1.2; 
+  margin-bottom: 30px;
+}
+
+.reports__analytics_text {
+  width: 377px;
+  flex-wrap: wrap;
+  color: #FFF;
+  font-family: HeliosExt;
+  font-size: 18px;
+  line-height: 1.5; 
+  margin-bottom: 10px;
+}
+
+.reports__mark_image {
+  padding-top: 114px;
+}
