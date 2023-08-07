@@ -1,23 +1,5 @@
 .guest {
-  background: radial-gradient(
-      26.83% 28.75% at 25.94% 92.16%,
-      #45d2ff 0%,
-      rgba(69, 210, 255, 0) 100%
-    ),
-    radial-gradient(
-      134.67% 69.88% at 9.66% 82.03%,
-      #985df1 0%,
-      rgba(171, 116, 255, 0) 100%
-    ),
-    radial-gradient(
-      63.24% 60.56% at 82.86% 30.4%,
-      rgba(25, 210, 251, 0.5) 0%,
-      rgba(25, 210, 251, 0) 100%
-    ),
-    #2898f5;
-  box-shadow: 0px 0px 34px 0px rgba(255, 255, 255, 0.25) inset,
-    0px 4px 13px 0px rgba(255, 255, 255, 0.15) inset;
-  padding-bottom: 145px;
+  padding-top: 180px;
 }
 
 .guest__map_box {

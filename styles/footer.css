@@ -1,11 +1,7 @@
 .footer {
-  background: radial-gradient(26.83% 28.75% at 25.94% 92.16%, #45D2FF 0%, rgba(69, 210, 255, 0.00) 100%), radial-gradient(134.67% 69.88% at 9.66% 82.03%, #985DF1 0%, rgba(171, 116, 255, 0.00) 100%), radial-gradient(63.24% 60.56% at 82.86% 30.40%, rgba(25, 210, 251, 0.50) 0%, rgba(25, 210, 251, 0.00) 100%), #2898F5;
-  box-shadow: 0px 0px 34px 0px rgba(255, 255, 255, 0.25) inset, 0px 4px 13px 0px rgba(255, 255, 255, 0.15) inset;
-    color: #FFF;
-  padding-bottom: 59px;
-  font-family: 'HeliosExt';
+  padding-top: 145px;
+  color: #FFF;
 }
-
 
 .footer__container {
   display: flex;
@@ -57,4 +53,8 @@
   width: 1400px;
   color: radial-gradient(26.83% 28.75% at 25.94% 92.16%, #45D2FF 0%, rgba(69, 210, 255, 0.00) 100%), radial-gradient(134.67% 69.88% at 9.66% 82.03%, #985DF1 0%, rgba(171, 116, 255, 0.00) 100%), radial-gradient(63.24% 60.56% at 82.86% 30.40%, rgba(25, 210, 251, 0.50) 0%, rgba(25, 210, 251, 0.00) 100%), #2A78EE;
   box-shadow: 0px 0px 34px 0px rgba(255, 255, 255, 0.25) inset, 0px 4px 13px 0px rgba(255, 255, 255, 0.15) inset;;
+}
+
+.footer__copyright {
+  padding-bottom: 55px;
 }
