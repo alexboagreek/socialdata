@@ -8,6 +8,11 @@
   justify-content: space-between;
 }
 
+.footer__logo {
+  position: relative;
+  top: -36px;
+}
+
 .footer__item {
   font-family: 'HeliosExt';
   margin-bottom: 27px;
@@ -20,6 +25,7 @@
 .list__margin {
   margin-bottom: 24px;
 }
+
 .address__length {
   width: 298px;
 }
