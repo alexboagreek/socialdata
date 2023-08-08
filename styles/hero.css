@@ -4,6 +4,10 @@
   background-color: #E3F1FE;;
 }
 
+.hero__container {
+  position: relative;
+}
+
 .hero__box {
   display: flex;
   position: relative;
@@ -71,4 +75,58 @@
   color:#2898F5 ;
   border-radius: 73px;
   border: 2px solid #2898F5;
+}
+
+.hero__image_box {
+  position: absolute;
+  inset: 0;
+}
+
+.hero__deco__image {
+  position: absolute;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.hero__deco__image_01 {
+  width: 880px;
+  height: 496px;
+  right: 0;
+  bottom: 0;
+  background-image: url('../assets/img/hero_img.png');
+  border-radius: 25px 25px 0px 0px;
+  background: url('../assets/img/hero_img.png'), lightgray 50% / cover no-repeat;
+  z-index: 7;
+}
+
+.hero__deco__image_02 {
+  width: 1031px;
+  height: 758px;
+  background-image: url('../assets/icons/arrow.png');
+  z-index: 1;
+  right: 0;
+  top: -32px;
+  stroke-width: 10px;
+}
+
+.hero__deco__image_03 {
+  width: 274px;
+  height: 111px;
+  transform: rotate(8.827deg);
+  background-image: url('../assets/icons/sale.png');
+  border-radius: 30px;
+  top: 56px;
+  right: 540px;;
+  background: var(--27-aaf-43-paints, radial-gradient(77.62% 77.62% at 3.36% 85.16%, #10E8F5 0%, rgba(16, 232, 245, 0.00) 100%), radial-gradient(88.40% 88.40% at 93.99% 23.32%, #6F42EF 0%, rgba(219, 20, 236, 0.00) 100%), #27AAF4);
+  box-shadow: 0px 4px 75px 0px rgba(255, 255, 255, 0.40) inset;
+  z-index: 1;
+}
+
+.hero__deco__image_04 {
+  width: 60px;
+  height: 87px;
+  background-image: url('../assets/icons/vector.png');
+  top: 54px;
+  left: 859px;
 }
