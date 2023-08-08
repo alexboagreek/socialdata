@@ -27,9 +27,19 @@
 }
 
 .comments__icons_list {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 415px);
+  gap: 20px;
   margin-bottom: 54px;
+}
+
+.comments__content {
+  border-radius: 50px;
+  border: 1px solid  #2898F5;
+  box-shadow: 0px 0px 203px 0px rgba(255, 255, 255, 0.60) inset;
+  padding: 42px;
+  opacity: 0.6;
+  position: relative;
 }
 
 .comments__slider_button {
@@ -45,6 +55,7 @@
 
 .comments__link_news {
   display: flex;
+  max-width: 368px;
   align-items: center;
   color: #2898F5;
   font-family: HeliosExtC;
@@ -59,7 +70,46 @@
 }
 
 .comments__value {
+  color: #050816;
+  font-family: HeliosExt;
+  font-size: 15px;
+  line-height: 1.5; 
   margin-left: 11px;
+  opacity: 0.3;
+}
+
+.comments__text {
+  color: #182149;
+  font-family: HeliosExt;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5; 
+}
+
+.comments__link {
+  color:  #2898F5;
+  font-family: HeliosExt;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; 
+  cursor: pointer;
+  text-decoration-line: underline;
+}
+
+.comments__image {
+  position: relative;
+  z-index: 1;
+}
+.comments_date {
+  color:  #050816;
+  text-align: right;
+  font-family: HeliosExt;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.3;
 }
 
 .comments__slider_button {
