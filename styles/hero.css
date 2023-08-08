@@ -1,7 +1,8 @@
 .hero {
   border-radius: 0px 0px 120px 120px;
   opacity: 0.9;
-  background-color: #E3F1FE;;
+  background-color: #E3F1FE;
+  z-index: 19;
 }
 
 .hero__container {
@@ -91,10 +92,11 @@
 
 .hero__deco__image_01 {
   width: 880px;
-  height: 496px;
+  height: 471px;
   right: 0;
   bottom: 0;
-  background-image: url('../assets/img/hero_img.png');
+  background-image: url('../assets/img/hero_bg.png');
+  background-repeat: no-repeat;
   border-radius: 25px 25px 0px 0px;
   background: url('../assets/img/hero_img.png'), lightgray 50% / cover no-repeat;
   z-index: 7;

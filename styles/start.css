@@ -143,6 +143,8 @@
 }
 
 .start__help_item {
+  display: flex;
+  align-items: center;
   color: #182149;
   font-family: HeliosExt;
   font-size: 20px;
@@ -154,14 +156,17 @@
   padding-top: 40px;
 }
 
-.start__help_span {
+.start__bg_helper {
   width: 40px;
   height: 40px;
-  flex-shrink: 0;
   border-radius: 50%;
-  background-color:  #2898F5;
-  padding: 10px;
+  background-color: #2898F5;
   margin-right: 15px;
+}
+
+.start__help_span {
+  padding: 10px; 
+  color: #FFF;
   line-height: 1.2;
 }
 
