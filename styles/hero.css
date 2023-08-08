@@ -92,7 +92,7 @@
 
 .hero__deco__image_01 {
   width: 880px;
-  height: 471px;
+  height: 435px;
   right: 0;
   bottom: 0;
   background-image: url('../assets/img/hero_bg.png');
@@ -114,14 +114,14 @@
 
 .hero__deco__image_03 {
   width: 274px;
-  height: 111px;
+  height: 184px;
   transform: rotate(8.827deg);
-  background-image: url('../assets/icons/sale.png');
+  background-image: url('../assets/icons/hero_deco.png');
   border-radius: 30px;
   top: 56px;
   right: 540px;;
-  background: var(--27-aaf-43-paints, radial-gradient(77.62% 77.62% at 3.36% 85.16%, #10E8F5 0%, rgba(16, 232, 245, 0.00) 100%), radial-gradient(88.40% 88.40% at 93.99% 23.32%, #6F42EF 0%, rgba(219, 20, 236, 0.00) 100%), #27AAF4);
-  box-shadow: 0px 4px 75px 0px rgba(255, 255, 255, 0.40) inset;
+  /* background: var(--27-aaf-43-paints, radial-gradient(77.62% 77.62% at 3.36% 85.16%, #10E8F5 0%, rgba(16, 232, 245, 0.00) 100%), radial-gradient(88.40% 88.40% at 93.99% 23.32%, #6F42EF 0%, rgba(219, 20, 236, 0.00) 100%), #27AAF4);
+  box-shadow: 0px 4px 75px 0px rgba(255, 255, 255, 0.40) inset; */
   z-index: 1;
 }
 

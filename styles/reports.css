@@ -15,23 +15,94 @@
 .reports__analytics_title {
   width: 377px;
   flex-wrap: wrap;
-  color: #FFF;
+  color: #fff;
   font-family: HeliosExt;
   font-size: 30px;
-  line-height: 1.2; 
+  line-height: 1.2;
   margin-bottom: 30px;
 }
 
 .reports__analytics_text {
   width: 377px;
   flex-wrap: wrap;
-  color: #FFF;
+  color: #fff;
   font-family: HeliosExt;
   font-size: 18px;
-  line-height: 1.5; 
+  line-height: 1.5;
   margin-bottom: 10px;
 }
 
 .reports__mark_image {
   padding-top: 114px;
+}
+
+.reports__box {
+  position: relative;
+}
+
+.reports__decor_box {
+  position: absolute;
+  inset: 0;
+}
+
+.reports__span {
+  display: inline-block;
+  border-radius: 50px;
+  border: 2px solid #FFF;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.reports__decor_image {
+  position: absolute;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.reports__decor__image_01 {
+  width: 100px;
+  height: 100px;
+  transform: rotate(-10deg);
+  background-image: url('../assets/icons/reports_like_icon.png');
+  top: 60%;
+  left: 11%;
+}
+
+.reports__decor__image_02 {
+  width: 362px;
+  height: 520px;
+  transform: rotate(-8deg);
+  background-image: url('../assets/img/reports_decor.png');
+  top: 121%;
+  left: 7%;
+  z-index: 7;
+  
+}
+
+.reports__decor__image_03 {
+  width: 860px;
+  height: 772px;
+  background-image: url('../assets/img/reports_image.png');
+  top: 60%;
+  left: 25%;
+}
+
+.reports__decor__image_04 {
+  width: 94px;
+  height: 101px;
+  transform: rotate(-22deg);
+  background-image: url('../assets/icons/reports_vector.png');
+  top: 103%;
+  right: 17%;
+}
+
+.reports__decor__image_05 {
+  width: 118px;
+  height: 118px;
+  transform: rotate(7deg);
+  background-image: url('../assets/icons/reports_img_icon.png');
+  top: 133%;
+  right: 9%;
+  background-color: transparent;
 }
