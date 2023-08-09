@@ -12,10 +12,6 @@
   margin-bottom: 63px;
 }
 
-.advantages__content {
-  height: 380px;
-}
-
 .advantages__span {
   color: #2898f5;
   text-align: center;
@@ -41,7 +37,7 @@
 
 .advantages__item {
   border-radius: 50px;
-  border: 1px solid green;
+  border: 1px solid  #2898f5;
   box-shadow: 0px 4px 75px 0px rgba(255, 255, 255, 0.73) inset;
   padding-top: 135px;
   padding-left: 40px;

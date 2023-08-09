@@ -172,6 +172,7 @@
   .about {
     border-radius: 30px;
     padding-top: 30px;
+    margin-bottom: 50px;
   }
 
   .about__title,
@@ -214,7 +215,7 @@
     height: 159px;
     padding-bottom: 30px;
   }
-  
+
   .mobile__title_helper {
     padding-top: 25px;
   }
@@ -229,5 +230,45 @@
 
   .slider__box {
     margin-bottom: 0;
+  }
+
+  .advantages {
+    margin-bottom: 50px;
+  }
+  
+  .advantages__title,
+  .advantages__span {
+    font-size: 24px;
+    line-height: 1.27;
+  }
+
+  .advantages__title {
+    margin-bottom: 25px;
+  }
+
+  .advantages__list {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+  }
+
+  .advantages__item {
+    border-radius: 25px;
+    padding: 25px 74px 81px 20px;
+  }
+
+  .advantages__item_title {
+    font-size: 20px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+
+  .advantages__item_text {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+
+  .advantages__item_helper {
+    width: 345px;
+    height: 128px;
   }
 }
