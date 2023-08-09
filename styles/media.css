@@ -650,4 +650,171 @@
   .mobile__helper_text {
     padding-top: 48px;
   }
+
+  .quest {
+    position: relative;
+    border-radius: 30px 30px 0 0;
+  }
+  .quest__title {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 54px;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .quest__form_input {
+    width: 345px;
+    margin-bottom: 10px;
+  }
+
+  .quest__form__buttons {
+    flex-direction: column;
+  }
+
+  .input__placeholder {
+    font-size: 14px;
+  }
+
+  .input__placeholder_span {
+    font-size: 12px;
+  }
+
+  .input__placeholder_svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .quest__inputs_box {
+    margin-bottom: 20px;
+  }
+
+  .quest__form_button {
+    width: 345px;
+    padding: 22px 25px;
+    margin-bottom: 20px;
+  }
+
+  .quest__form_text {
+    text-align: center;
+  }
+
+  .quest__image {
+    position: absolute;
+    top: 377px;
+    left: 23px;
+  }
+  .guest {
+    padding-top: 50px;
+  }
+
+  .guest__title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .guest__text {
+    width: 345px;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .guest__list {
+    width: inherit;
+    text-align: center;
+    left: 0;
+    top: 0;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+  }
+
+  .guest__item_phone {
+    font-size: 20px;
+  }
+
+  .guest__item_address, .guest__item_mail {
+    font-size: 14px;
+  }
+
+  .guest__item {
+    padding-bottom: 15px;
+  }
+
+  .map__decor_image_01 {
+    width: 345px;
+    height: 356px;
+    top: 72%;
+  }
+
+  .map__decor_image_02 {
+    width: 35px;
+    height: 50px;
+    left: 60%;
+    top: 105%;
+  }
+
+  .footer {
+    position: relative;
+    padding-top: 199px;
+  }
+
+  .footer__copyright {
+    padding-bottom: 15px;
+  }
+
+  .copyright__list {
+    flex-direction: column-reverse;
+  }
+
+  .copyright__item {
+    margin-bottom: 10px;
+  }
+
+  .footer__logo {
+    position: absolute;
+    width: 100px;
+    height: 48px;
+    top: 20%;
+  }
+
+  .footer__item {
+    margin-right: 56px;
+  }
+
+  .footer__link {
+    font-size: 14px;
+  }
+
+  .copyright__link {
+    font-size: 12px;
+  }
+
+  .copyright__link_span {
+    font-size: 12px;
+    opacity: 0.5;
+  }
+  
+  .mobile__link_helper {
+    padding-top: 20px;
+  }
+
+  .line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .social__list {
+    position: absolute;
+    right: 0;
+    top: 73%;
+    gap: 10px;
+  }
+
+  .social__item {
+    width: 18px;
+    height: 18px;
+  }
 }
