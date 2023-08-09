@@ -6,6 +6,10 @@
   margin-bottom: 180px;
 }
 
+.about__container {
+  position: relative;
+}
+
 .about__list {
   display: flex;
   gap: 20px;
