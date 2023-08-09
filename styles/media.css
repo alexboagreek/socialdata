@@ -116,4 +116,57 @@
     width: 9px;
     height: 9px;
   }
+
+  .partners {
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .partners__content {
+    margin-right: 10px;
+  }
+
+  .partners__title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .partners__item {
+    width: 115px;
+    height: 64px;
+    border-radius: 15px;
+  }
+
+  .partners__item_01,
+  .partners__item_02,
+  .partners__item_07,
+  .partners__item_08 {
+    display: none;
+  }
+
+  .partners__item_03 {
+    position: absolute;
+    top: 50px;
+    left: -60px;
+  }
+
+  .partners__item_04 {
+    position: absolute;
+    top: 50px;
+    left: 66px;
+  }
+
+  .partners__item_05 {
+    position: absolute;
+    top: 50px;
+    left: 191px;
+  }
+
+  .partners__item_06 {
+    position: absolute;
+    top: 50px;
+    right: -59px;
+  }
+  
 }
