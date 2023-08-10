@@ -118,8 +118,8 @@
     height: 9px;
   }
 
-  .video__controller {
-    width: inherit;
+  .video__controller, .entrance__controller {
+    width: 305px;
   }
 
   .partners {
