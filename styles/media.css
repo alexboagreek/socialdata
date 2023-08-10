@@ -487,7 +487,7 @@
   .start__own_link {
     text-align: center;
     display: block;
-    width: 305px;
+    width: inherit;
     padding: 25px 5px 25px 25px;
     font-size: 14px;
   }
@@ -513,7 +513,7 @@
 
   .start__help_link {
     display: block;
-    width: 305px;
+    width: inherit;
     padding: 25px 20px;
     text-align: center;
   }
@@ -735,7 +735,8 @@
     font-size: 20px;
   }
 
-  .guest__item_address, .guest__item_mail {
+  .guest__item_address,
+  .guest__item_mail {
     font-size: 14px;
   }
 
@@ -796,7 +797,7 @@
     font-size: 12px;
     opacity: 0.5;
   }
-  
+
   .mobile__link_helper {
     padding-top: 20px;
   }
@@ -816,5 +817,77 @@
   .social__item {
     width: 18px;
     height: 18px;
+  }
+
+  .conquest__title,
+  .conquest__span {
+    max-width: 290px;
+    flex-wrap: wrap;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .conquest__content_item {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .conquest__active {
+    font-size: 20px;
+  }
+
+  .scroll {
+    margin-bottom: 20px;
+  }
+
+  .conquest__content {
+    margin-right: 15px;
+  }
+
+  .conquest__buttons_list {
+    margin-bottom: 20px;
+  }
+
+  .conquest__button {
+    width: 173px;
+    font-size: 12px;
+    padding: 13px 18px;
+    margin-right: 5px;
+  }
+
+  .conquest__mobile_helper {
+    width: 145px;
+  }
+
+  .conquest__result_box {
+    width: 345px;
+  }
+
+  .conquest__result_content {
+    border-radius: 25px;
+  }
+
+  .comments__title {
+    font-size: 16px;
+  }
+
+  .example__item, .example__value {
+    font-size: 10px;
+  }
+
+  .full__service_compilation {
+    margin-bottom: 0;
+  }
+
+  .conquest__helper {
+    font-size: 10px;
+  }
+
+  .conquest__links_list {
+    margin-bottom: 25px;
+  }
+
+  .conquest__open_link {
+    font-size: 14px;
   }
 }
