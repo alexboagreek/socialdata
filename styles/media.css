@@ -824,6 +824,10 @@
     height: 18px;
   }
 
+  .conquest {
+    padding-top: 50px;
+  }
+
   .conquest__title,
   .conquest__span {
     max-width: 290px;
@@ -911,6 +915,7 @@
 
   .inside__skills_box {
     padding-top: 250px;
+    gap: 25px;
   }
 
   .inside__title {
@@ -958,6 +963,10 @@
     margin-bottom: 25px;
   }
 
+  .inside__mobile_content {
+    margin-top: 25px;
+  }
+
   .inside__decoration_image {
     width: 54px;
     height: 54px;
@@ -971,6 +980,16 @@
   .inside__decoration_img_02 {
     top: 25%;
     left: 75%;
+  }
+
+  .inside__decoration_img_03 {
+    top: 32%;
+    right: 10%;
+  }
+
+  .inside__decoration_img_04 {
+    right: 9%;
+    top: 39%;
   }
 
   .reports__title,
