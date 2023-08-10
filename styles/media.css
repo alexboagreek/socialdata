@@ -338,8 +338,8 @@
   }
 
   .full__service_text {
-    width: 305px;
-    font-size: 14px;
+    width: inherit;
+    font-size: 14.5px;
     margin-bottom: 25px;
   }
 
@@ -353,6 +353,7 @@
   }
 
   .title__box {
+    font-size: 14px;
     margin-bottom: 13px;
   }
 
@@ -367,9 +368,11 @@
   }
 
   .compilation__link {
-    width: 305px;
-    padding: 22px 25px;
+    width: inherit;
+    padding: 22px 45px;
     margin-bottom: 25px;
+    font-size: 14px;
+    text-align: center;
   }
 
   .example__item {
@@ -882,11 +885,12 @@
 
   .example__item,
   .example__value {
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .full__service_compilation {
-    margin-bottom: 0;
+    width: inherit;
+    margin-bottom: 25px;
   }
 
   .conquest__helper {
