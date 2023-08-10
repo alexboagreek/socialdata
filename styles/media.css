@@ -258,7 +258,7 @@
 
   .advantages__item {
     border-radius: 25px;
-    padding: 25px 74px 81px 20px;
+    padding: 25px 20px;
   }
 
   .advantages__item_title {
@@ -273,7 +273,7 @@
   }
 
   .advantages__item_helper {
-    width: 345px;
+    width: inherit;
     height: 128px;
   }
 
@@ -299,6 +299,10 @@
 
   .service__list_content {
     width: inherit;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 25px;
   }
 
   .service__item {
@@ -314,7 +318,6 @@
   .service__item_text {
     width: 300px;
     font-size: 15px;
-    padding-bottom: 25px;
   }
 
   .service__mark {
@@ -346,6 +349,14 @@
   .full__service_compilation {
     padding: 17px 15px;
     margin-bottom: 20px;
+  }
+
+  .mobile__service_helper {
+    width: 266px;
+  }
+
+  .mobile__service_text_helper {
+    font-size: 13px;
   }
 
   .compilation__title {
