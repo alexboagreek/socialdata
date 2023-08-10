@@ -876,7 +876,8 @@
     font-size: 16px;
   }
 
-  .example__item, .example__value {
+  .example__item,
+  .example__value {
     font-size: 10px;
   }
 
@@ -894,5 +895,141 @@
 
   .conquest__open_link {
     font-size: 14px;
+  }
+
+  .inside {
+    position: relative;
+    border-radius: 30px;
+  }
+
+  .inside__title {
+    padding-top: 25px;
+    font-size: 24px;
+  }
+
+  .inside__text {
+    width: 340px;
+    flex-wrap: wrap;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .inside__price {
+    display: flex;
+    flex-direction: column;
+  }
+  .inside__price_content {
+    width: inherit;
+  }
+
+  .inside__index_list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inside__price_content {
+    border-radius: 25px;
+    padding: 25px 20px;
+  }
+
+  .inside__price_item_title {
+    text-align: start;
+    font-size: 20px;
+  }
+
+  .inside__price_item_text {
+    text-align: start;
+    font-size: 14px;
+  }
+
+  .inside__price_margin {
+    margin-bottom: 25px;
+  }
+
+  .inside__decoration_image {
+    width: 54px;
+    height: 54px;
+  }
+
+  .inside__decoration_img_01 {
+    left: 75%;
+    top: 7%;
+  }
+
+.inside__decoration_img_02 {
+  top: 14%;
+  left: 74%;
+}
+  
+
+  .reports__title,
+  .reports__span {
+    font-size: 24px;
+  }
+
+  .reports__title {
+    margin-bottom: 25px;
+  }
+
+  .reports__analytics_title {
+    width: 270px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .reports__analytics_text {
+    flex-wrap: wrap;
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+
+  .reports__decor__image_01 {
+    width: 50px;
+    height: 50px;
+    top: 231%;
+    left: 1%;
+  }
+
+  .reports__decor__image_02 {
+    width: 258px;
+    height: 370px;
+    transform: rotate(15deg);
+    top: 193%;
+  }
+
+  .reports__decor__image_03 {
+    width: 309px;
+    height: 277px;
+    top: 100%;
+    left: 0%;
+  }
+
+  .reports__decor__image_04 {
+    width: 58px;
+    height: 81px;
+    transform: rotate(-105deg);
+    top: 74%;
+    right: -2%;
+  }
+
+  .reports__decor__image_05 {
+    width: 60px;
+    height: 60px;
+    transform: rotate(15deg);
+    top: 43%;
+    right: 0%;
+  }
+
+  .reports__analytics_mobile {
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
+  .inside__skills_box {
+    flex-direction: column;
+  }
+  .inside__theme_list {
+    flex-direction: column;
   }
 }
